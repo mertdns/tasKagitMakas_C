@@ -40,7 +40,7 @@ void Oyun()
             printf("bot secimi: %s\n", botSecim == 1 ? "tas" : botSecim == 2 ? "kagit"
                                                            : botSecim == 3   ? "makas"
                                                                              : "hata");
-            ;
+
             if (secim == botSecim)
                 printf("berabere, skor sabit kaldi");
             else if ((secim == 1 && botSecim == 2) || (secim == 2 && botSecim == 3) || (secim == 3 && botSecim == 1))
